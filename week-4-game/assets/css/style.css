@@ -1,0 +1,78 @@
+body {
+    background-image: url("../images/cavebackground.jpg");
+    }
+    
+    .jumbotron {
+        background-color: rgb(58, 98, 230);
+        color: black;
+        text-align: center;
+    }
+    
+    .display-3 {
+        font-family: 'Permanent Marker', cursive;
+        color: 	white;
+        font-size: 150px;
+    }
+    
+    .lead {
+        font-family: 'Permanent Marker', cursive;
+        color: black;
+    }
+    .currentNumber {
+        background-color: rgb(58, 98, 230);
+        width: 100%;
+        color: white;
+        clear:both;
+        text-align: center;
+        font-family: 'Permanent Marker', cursive;
+        color: 	black;
+        border-style: outset;
+    }
+    
+    .targetScoreText {
+        font-size: 40px;
+    }
+    
+    .score {
+        background-color: rgb(58, 98, 230);
+        width: 100%;
+        clear: both;
+        text-align: center;
+        font-family: 'Permanent Marker', cursive;
+        color: 	black;
+        border-style: outset;
+    }
+    
+    .images {
+        display: inline;
+        width: 60%;
+        color: white;
+    
+    }
+    
+    .totalScore {
+        background-color: rgb(58, 98, 230);
+        width: 100%;
+        text-align: center;
+        font-family: 'Permanent Marker', cursive;
+        color: 	black;
+        font-size: 40px;
+        border-style: outset;
+    }
+    img {
+        width: 10%;
+        margin: 15px;
+    }
+    
+    #newGame {
+        background-color: rgb(196, 178, 156);
+        width: 100%;
+        color: white;
+        clear:both;
+        text-align: center;
+        font-family: 'Permanent Marker', cursive;
+        font-size: 40px;
+        color: 	black;
+        border-style: outset;
+        margin-top: 20px;
+    }

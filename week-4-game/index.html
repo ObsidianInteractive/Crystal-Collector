@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Crystal Collector!</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<!--Custom Theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+		<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+		<script type="text/javascript" src="assets/javascript/game.js"></script>
+	</head>
+	<body>
+		<div class="jumbotron">
+			<h1 class="display-3">Crystal Collector!</h1>
+			<hr>
+			<p class="lead">Click the crystals. Figure out there value. Click crystals until you reach goal number. Good luck! </p>
+		</div>
+        <div class="row">
+                <div class="col-md-12">
+                    <div class="currentNumber">
+                        <h2>Current Number:</h2>
+                        <div class="targetScoreText">Go ahead...Make my day</div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12, text-center">
+                    <div class="images">
+                        <img id="blueCrystal" src="assets/images/bluecrystal.jpg">
+                        <img id="greenCrystal" src="assets/images/greencrystal.jpg">
+                        <img id="redCrystal" src="assets/images/redcrystal.jpg">
+                        <img id="yellowCrystal" src="assets/images/yellowcrystal.jpg">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="totalScore">
+                        <h2>Your Total Score is:</h2>
+                        <div id="guessedScore">I'm Waiting!</div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="score">
+                        <h2>
+                        <p>
+                            Wins:<div id="win">0</div>
+                            Losses:<div id= "lose">0</div>
+                        </p>
+                        </h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+            <div class="col-md-12">
+            <button type="button" id="newGame" class="btn">New Game!</button>
+            </div>
+            </div>
+    
+        </body>
+    </html>
